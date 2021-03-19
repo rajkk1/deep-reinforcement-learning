@@ -32,7 +32,7 @@ OpenAI Gym [defines "solving"](https://gym.openai.com/envs/Taxi-v1/) this task a
 
 ### Results
 
-I was able to obtain a value of `9.239` for `best_avg_reward` by using an expected SARSA algorithm with the following parameters:
+I was able to obtain a value of `9.277` for `best_avg_reward` by using an expected SARSA algorithm with the following parameters:
 * 20,000 episodes
 * `gamma = 1`
 * `alpha = 0.01` 
