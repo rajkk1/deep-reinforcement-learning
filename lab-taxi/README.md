@@ -32,4 +32,10 @@ OpenAI Gym [defines "solving"](https://gym.openai.com/envs/Taxi-v1/) this task a
 
 ### Results
 
-After 20,000 episodes, I was able to obtain a value of `9.239` for `best_avg_reward` by using an expected SARSA algorithm with an initial epsilon of `1` and by discounting the epsilon by `0.9999` after every episode (without setting a minimum epsilon).
+I was able to obtain a value of `9.239` for `best_avg_reward` by using an expected SARSA algorithm with the following parameters:
+* 20,000 episodes
+* `gamma = 1`
+* `alpha = 0.01` 
+* initial epsilon of `1` 
+* discounting the epsilon by `0.9999` after every episode
+* no minimum epsilon
