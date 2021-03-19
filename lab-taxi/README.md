@@ -28,4 +28,8 @@ Your assignment is to modify the `agents.py` file to improve the agent's perform
 
 Once you have modified the function, you need only run `python main.py` to test your new agent.
 
-OpenAI Gym [defines "solving"](https://gym.openai.com/envs/Taxi-v1/) this task as getting average return of 9.7 over 100 consecutive trials.  
+OpenAI Gym [defines "solving"](https://gym.openai.com/envs/Taxi-v1/) this task as getting average return of 9.7 over 100 consecutive trials.
+
+### Results
+
+After 20,000 episodes, I was able to obtain a value of `9.239` for `best_avg_reward` by using an expected SARSA algorithm with an initial epsilon of `1` and by discounting the epsilon by `0.9999` after every episode (without setting a minimum epsilon).
